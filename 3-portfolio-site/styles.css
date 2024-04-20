@@ -1,0 +1,99 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #f8a5c2;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+
+  .welcome-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffd3e0;
+  }
+  
+  .about-section {
+    padding: 50px 20px;
+  }
+  
+  .portfolio-section {
+    padding: 50px 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+  }
+  
+  .gallery-item img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .gallery-item img:hover {
+    transform: scale(1.1);
+  }
+
+  .contact-section {
+    background-color: #ffd3e0;
+    padding: 50px 20px;
+  }
+  
+  .contact-section form {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .contact-section input,
+  .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-section button {
+    background-color: #f8a5c2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-section button:hover {
+    background-color: #ff87ac;
+  }
+
