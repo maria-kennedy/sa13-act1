@@ -1,5 +1,5 @@
 body {
-    font-family: Lemon Milk;
+    font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
 }
@@ -12,6 +12,7 @@ header {
 }
 
 main {
+    background-color: rgb(232, 224, 235);
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
